@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"__init_game",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__init_game",
+  "parent":{
+    "name":"testground_001",
+    "path":"testground_001.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

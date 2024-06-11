@@ -1,0 +1,1 @@
+fsm.animation_end();
