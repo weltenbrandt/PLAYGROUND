@@ -8,4 +8,5 @@ with(INPUT){
     attack  = input_check_pressed("action");
     dirl    = input_direction(undefined, "left", "right", "up", "down");
     distl   = input_distance("left","right","up","down");
+    change_skill = input_check_pressed("change_skill");
 }

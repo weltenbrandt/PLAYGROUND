@@ -251,3 +251,8 @@ move = function(){
     x = clamp(x, 0, room_width);
     y = clamp(y, 0, room_height);
 }
+
+skill1 = SKILL_LIST.skill1;
+skill2 = SKILL_LIST.skill2;
+skill3 = SKILL_LIST.skill3;
+chosen_skill = skill1;

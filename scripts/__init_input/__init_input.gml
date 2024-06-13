@@ -9,5 +9,6 @@ function __init_input(){
         attack: false,
         dirl  : undefined,
         distl : 0,
+        change_skill : false,
     }
 }
