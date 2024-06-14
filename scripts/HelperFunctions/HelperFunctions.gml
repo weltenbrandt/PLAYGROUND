@@ -38,7 +38,6 @@ function SfxPlay(_sfx, _random_pitch = true){
     audio_play_sound(_sfx, 0, false, 1, 0, _pitch);
 }
 
-audio_channel_num(200);
 function HitFrameBroadcastCheck(_id = id){
     if(layer_instance_get_instance(event_data[? "element_id"]) == _id){
         if(event_data[? "event_type"] == "sprite event"){
