@@ -44,7 +44,7 @@ function HitFrameBroadcastCheck(_id=id){
         if(event_data[?"event_type"]=="sprite event"){
             switch event_data[?"message"]{
                 case "step_sfx":
-                SfxPlay(choose(sfx_step1,sfx_step2));
+                SfxPlay(choose(hit_sound_001,hit_sound_001));
                 Trace("Play step sfx");
                 return true;
             }
