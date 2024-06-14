@@ -53,17 +53,7 @@
             "0":{"$MessageEventKeyframe":"","Events":[
                 "step_sfx",
               ],"resourceType":"MessageEventKeyframe","resourceVersion":"2.0",},
-          },"Disabled":false,"id":"58149303-37ee-49be-8cbd-4316ef924d76","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
-        {"$Keyframe<MessageEventKeyframe>":"","Channels":{
-            "0":{"$MessageEventKeyframe":"","Events":[
-                "step_sfx",
-              ],"resourceType":"MessageEventKeyframe","resourceVersion":"2.0",},
-          },"Disabled":false,"id":"c4d4e82e-90f6-4973-a800-cddd88d4d5b0","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
-        {"$Keyframe<MessageEventKeyframe>":"","Channels":{
-            "0":{"$MessageEventKeyframe":"","Events":[
-                "step_sfx",
-              ],"resourceType":"MessageEventKeyframe","resourceVersion":"2.0",},
-          },"Disabled":false,"id":"076ee54c-8f69-4051-96be-4f7a23cf440a","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
+          },"Disabled":false,"id":"e4f032e4-93ab-49e6-a02f-5ff5560e63c8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<MessageEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
       ],
       "resourceType":"KeyframeStore<MessageEventKeyframe>",
       "resourceVersion":"2.0",

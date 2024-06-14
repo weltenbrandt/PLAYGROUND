@@ -18,3 +18,5 @@ if(INPUT.change_skill){
         chosen_skill = skill1;
     }
 }
+
+GuiTrace("audio_is_playing(hit_sound_001): ",audio_is_playing(hit_sound_001));

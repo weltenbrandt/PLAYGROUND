@@ -34,18 +34,17 @@ function sprite_is_on_frame(_frame){
 }
 
 function SfxPlay(_sfx, _random_pitch = true){
-    if(audio_is_playing(_sfx)) audio_stop_sound(_sfx);
-    var _index = audio_play_sound(_sfx, 0, false);
-    if(_random_pitch) audio_sound_pitch(_index, irandom_range(0.8, 1.2));
+    var _pitch = _random_pitch ? irandom_range(1, 1.2) : 1; 
+    audio_play_sound(_sfx, 0, false, 1, 0, _pitch);
 }
 
-function HitFrameBroadcastCheck(_id=id){
-    if(layer_instance_get_instance(event_data[?"element_id"])==_id){
-        if(event_data[?"event_type"]=="sprite event"){
-            switch event_data[?"message"]{
+audio_channel_num(200);
+function HitFrameBroadcastCheck(_id = id){
+    if(layer_instance_get_instance(event_data[? "element_id"]) == _id){
+        if(event_data[? "event_type"] == "sprite event"){
+            switch event_data[? "message"]{
                 case "step_sfx":
-                SfxPlay(choose(hit_sound_001,hit_sound_001));
-                Trace("Play step sfx");
+                SfxPlay(hit_sound_001);
                 return true;
             }
         }
