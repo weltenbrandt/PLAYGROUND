@@ -12,8 +12,8 @@
   "duration":0.083792,
   "name":"sfx_step1",
   "parent":{
-    "name":"Player",
-    "path":"folders/Player.yy",
+    "name":"playersound",
+    "path":"folders/Player/playersound.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

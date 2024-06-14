@@ -155,10 +155,10 @@ fsm.add("attack1",{
         sprite_index = sprite_list[_spr_dir];
 
         if(INPUT.attack){
-            if(image_index < 4){
+            if(image_index < 3){
                 Trace("Combo blocked, frame: "+string(image_index));
                 block_combo = true;
-            }else if(!block_combo && image_index >= 4 && image_index <= 6){
+            }else if(!block_combo && image_index >= 3 && image_index <= 7){
                 perform_combo = true;
             }
         }
@@ -205,8 +205,8 @@ get_sprite_dir = function(){
     return (round(direction / (360/_max_dir)) % _max_dir);
 }
 
-walk_speed  = 2;
-run_speed   = 4;
+walk_speed  = .8;
+run_speed   = 2.44;
 
 //Used for run-stop state switching
 spd_buffer  = []; //Tracks speed per frame
