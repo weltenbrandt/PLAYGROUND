@@ -38,3 +38,17 @@ function SfxPlay(_sfx, _random_pitch = true){
     var _index = audio_play_sound(_sfx, 0, false);
     if(_random_pitch) audio_sound_pitch(_index, irandom_range(0.8, 1.2));
 }
+
+function HitFrameBroadcastCheck(_id=id){
+    if(layer_instance_get_instance(event_data[?"element_id"])==_id){
+        if(event_data[?"event_type"]=="sprite event"){
+            switch event_data[?"message"]{
+                case "step_sfx":
+                SfxPlay(choose(sfx_step1,sfx_step2));
+                Trace("Play step sfx");
+                return true;
+            }
+        }
+    }
+    return false;
+}

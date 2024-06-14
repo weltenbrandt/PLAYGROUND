@@ -217,8 +217,8 @@ move = function(){
     if(!is_undefined(INPUT.dirl)){
         //Play step sounds
         if(step_sfx_timer.countdown()){
-            SfxPlay(choose(sfx_step1, sfx_step2));
-            Trace("Play step sfx - "+string(get_timer()));
+            //SfxPlay(choose(sfx_step1, sfx_step2));
+            //Trace("Play step sfx - "+string(get_timer()));
         }
         //Player movement input
         direction = INPUT.dirl
